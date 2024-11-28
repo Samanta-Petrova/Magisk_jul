@@ -31,58 +31,266 @@ body {
 
 
 
+/* Nav*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateX(-73%);
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: var(--green);
+    background: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+
 /* Home page*/
 
-.body-hp {
+body-hp {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
 .Homepage {
-   line-height: 1.5;
-   margin: 44px;
-    
+    line-height: 2;
+   
+
 }
+.magisk-jul-hp-intro {
+    margin-left: 44px;
+    font-size: 14px;
+}
+.magisk-jul-hp-intro h1 {
+    font-size: 32px;
+    color: var(--red);
+}
+#hos-kosBlokhus {
+    font-size: 16px;
+}
+.magisk-jul-hp-intro ul {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Cards*/
+
+.cards-home-page {
+
+    gap: 20px;
+    max-width: 600px;
+    display: grid;
+    line-height: 1.5;
+}
+
 
 .card-hp {
     background-color: var(--beige);
-    display: flex;
     padding: 20px;
+    display: flex;
     flex-direction: column;
-    background-image: url();
-    align-items: left;
-    
+    gap: 10px;
+    position: relative;
 }
+
 
 .card-hp h2 {
     color: var(--red);
-    font-size: 15px;
     line-height: 1.5;
-
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .card-hp p {
-    color: var(--red);
-    font-size: 15px;
-    line-height: 1.5;
     font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
     color: black;
+
 }
+.card-hp h2, .knappe-hp {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .knappe-hp {
     background-color: var(--red);
+    
+    font-size: 12px;
     text-decoration: none;
     color: white;
-    align-self: flex-end;
-
+    border-radius: 30px;
+    padding: 10px 20px;
+    float: right;
+    
 }
 
 
 
 
+/* Hp img*/
 
+.img-hp {
+ width: 400px;
+ margin: 0;
+}
+
+.logo img {
+    width: 250px;
+}
+
+
+
+/* Åbnings Ceremonien*/
+
+.åbnings-ceremonien-hp {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+}
+#nov3 {
+    margin-right: 44px;
+}
+.åbnings-ceremonien-hp h2 {
+    font-size: 32px;
+    
+}
+.åbnings-ceremonien-hp p {
+    margin-left: 44px;
+    text-align: left;
+    font-size: 14px;
+}
+.åbnings-ceremonien-hp li {
+    list-style-type: none;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 44px;
+    
+}
+
+.åbnings-ceremonien-hp a {
+    display: flex;
+    text-decoration: none;
+    color: var(--green);
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.åbnings-ceremonien-hp img {
+    display: flex;
+    align-items: center;
+    width: 323px;
+    height: 242px;
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+
+
+
+/* magisk-jul-section-hp*/
+
+.magisk-jul-section-hp {
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 44px;
+    margin-right: 44px;
+    
+
+}
+
+.magisk-jul-section-hp h2 {
+font-size: 32px;
+color: var(--red);
+text-align: left;
+align-items: left;
+margin-right: 155px;
+}
+.magisk-jul-section-hp p {
+    font-size: 14px;
+    align-items: left;
+}
+.magisk-jul-section-hp article{
+    align-items: left   ;
+    margin-bottom: 30px;
+
+}
+.magisk-jul-section-hp a {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: var(--red);
+    padding: 5px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* Footer hp*/
+
+footer {
+    margin: var(--Medium-spacer);
+}
+
+footer p:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+footer p:nth-of-type(3) {
+    margin-top: 0;
+}
+
+footer p a {
+    color: black;
+}
+
+footer i {
+    font-size: 2rem;
+}
 
 
 /* Magisk Jul*/

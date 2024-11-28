@@ -39,4 +39,211 @@ body {
 
 /* Cafe */
 
+/* Header*/
+.logo img {
+    width: 250px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateX(-73%);
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: var(--green);
+    background: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+/* Intro*/
+
+
+#Herobillede-til-cafe {
+    width: 394px;
+    height: 267px;
+}
+.intro-cafe {
+    line-height: 2;
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-cafe h1{
+    font-size: 32px;
+    color: var(--red);
+    margin-left: 44px;
+}
+.intro-cafe article {
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+/*buffet*/
+
+.julebuffet {
+    line-height: 2;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            margin-top: 20px;
+}
+.julebuffet h2 {
+    font-size: 32px;
+    color: var(--green);
+    margin-right: 180px;
+    
+}
+.julebuffet p, .julebuffet article {
+    margin-left: 44px;
+    margin-right: 44px;
+    font-size: 14px;
+}
+
+.julebuffet a {
+display: flex;
+text-decoration: none;
+color: white;
+background-color: var(--green);
+padding: 5px 30px;
+border-radius: 30px;
+display: inline-block;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+
+/* dagens kage*/
+
+.dagens-kage{
+    background-color: var(--beige);
+    line-height: 2;
+}
+
+.dagens-kage h2 {
+    font-size: 32px;
+    color: var(--red);
+    padding-top: 20px;
+    margin-left: 44px;
+    margin-bottom: 20px;
+
+}
+.dagens-kage article {
+    font-size: 14px;
+    margin-left: 44px;
+    margin-right: 44px;
+    padding-bottom: 20px;
+}
+
+.dagens-kage img {
+    padding-bottom: 20px;
+}
+
+/* cards*/
+.cards-home-page {
+
+    gap: px;
+    max-width: 600px;
+    display: grid;
+    line-height: 1.5;
+}
+
+
+.card-hp {
+    background-color: var(--beige);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+
+
+.card-hp h2 {
+    color: var(--red);
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.card-hp p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    color: black;
+
+}
+
+.card-hp h2,
+.knappe-hp {
+    display: inline-block;
+    vertical-align: middle;
+}
+.knappe-hp {
+    background-color: var(--red);
+
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    float: right;
+
+}
+/* footer*/ 
+footer {
+    margin: var(--Medium-spacer);
+}
+
+footer p:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+footer p:nth-of-type(3) {
+    margin-top: 0;
+}
+
+footer p a {
+    color: black;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
 /* Info */

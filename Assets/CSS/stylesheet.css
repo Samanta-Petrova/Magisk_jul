@@ -138,12 +138,16 @@ margin-bottom: 20px;
 margin-top: 20px;
 }
 
+.julebuffet img {
+    width: 343px;
+}
 
 /* dagens kage*/
 
 .dagens-kage{
     background-color: var(--beige);
     line-height: 2;
+    align-items: center;
 }
 
 .dagens-kage h2 {
@@ -164,11 +168,94 @@ margin-top: 20px;
 
 .dagens-kage img {
     margin-bottom: 20px;
+    align-items: center;
+    width: 400px;
+    
 }
+
+
+/* Menukort*/
+
+section h2 {
+    font-size: 32px;
+    margin-left: 44px;
+    color:var(--green)
+}
+section article {
+    font-size: 14px;
+    margin-left: 44px;
+    margin-right: 44px;
+    line-height: 2;
+}
+
+  
+
+span {
+    font-family: "Yeseva One", serif;
+    color: #177770;
+    font-weight: bold;
+    
+}
+
+ .accordion {
+     margin-bottom: 24px;
+ }
+
+ .accordion-container {
+     width: 90%;
+     max-width: 1240px;
+     margin: 0 auto;
+   
+     border-radius: 24px;
+     overflow: hidden;
+ }
+
+section span {
+    line-height: 2;
+    font-size: 20px;
+}
+ .accordion-item {
+     width: 100%;
+ }
+
+ .accordion-trigger {
+     width: 100%;
+     display: block;
+     background-color: rgb(250, 250, 250);
+     color: rgb(0, 0, 0);
+     padding: 24px;
+     font-size: 20px;
+     text-align: left;
+     border: none;
+     display: flex;
+     gap: 16px;
+     justify-content: space-between;
+     cursor: pointer;
+     list-style-type: none;
+     
+ }
+
+ .accordion-icon {
+     transition: transform 0.5s;
+     
+ }
+
+ .accordion-item[open] .accordion-icon {
+     transform: rotate(45deg);
+ }
+
+ .accordion-item:not(:first-of-type) .accordion-trigger {
+     border-top: 3px solid #eaeaea;
+ }
+
+ .accordion-content p {
+     margin: 24px;
+     line-height: 2;
+     font-size: 14px;
+ }
 
 /* cards*/
 
-/* Section container */
 .cards-section {
     display: grid;
     gap: 20px; /* Space between cards */
@@ -182,13 +269,12 @@ margin-top: 20px;
     background-color: var(--beige); 
     padding: 20px;
     
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* skyggen*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-/* Card content styling */
 .card-content h2 {
     margin-top: 20px;
     color: #A4262C; 
@@ -213,25 +299,25 @@ margin-top: 20px;
 .card-content .flex-container {
     display: flex;
     align-items: center;
-    /* Center vertically */
+   
     gap: 10px;
-    /* Space between text and button */
+   
     margin-top: 10px;
 }
-/* Button styling */
+
 .knappe-hp {
-    background-color: #A4262C; /* Red background color */
+    background-color: #A4262C; 
     color: white;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 20px;
-    align-self: flex-start; /* Align button to the left */
+    align-self: flex-start; 
     text-align: center;
     display: inline-block;
     white-space: nowrap;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add some shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
     transition: background-color 0.3s ease;
     text-align: center;
 }

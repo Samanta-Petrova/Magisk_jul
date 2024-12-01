@@ -35,17 +35,15 @@
     <main class="Homepage">
       <img
         class="img-hp"
-        src="./Assets/Photos/Billeder/mobile billeder/Hero,billede.jpg"
+        src="./Assets/Photos/Billeder/desktop billeder/Hero,billede.jpg"
         alt=""
       />
       <section class="magisk-jul-hp-intro">
         <h1>Magisk Jul</h1>
         <p id="hos-kosBlokhus">Hos Kulturhus og Skulpturpark Blokhus</p>
         <article>
-          Åbent onsdag-søndag kl. 15-20 fra 2. <br />
-          november til og med 29. december 2024 <br />(Lukket mandage, tirsdage
-          samt 23., 24. og <br />
-          25. december).
+          Åbent onsdag-søndag kl. 15-20 fra 2. november til og med 29. december
+          2024 <br />(Lukket mandage, tirsdage samt 23., 24. og 25. december).
         </article>
         <p>Entré til Skulpturparken giver til adgang til</p>
         <ul>
@@ -59,40 +57,46 @@
       </section>
       <!-- Cards - ændre gerne class til noget i kan bruge ( hp står for homepage )-->
 
-      <section class="cards-home-page">
-        <div class="card-hp">
-          <div class="card-content-hp">
-            <h2>Åbnings Ceremonien</h2>
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-content">
+          <h2>Åbnings Ceremonien</h2>
+          <div class="flex-container">
             <p>
-              Åbningsprogram lørdag 2. nov. fra kl. <br />
-              15.00 Fri entré 2. nov. mellem kl. 15-16 for <br />gæster iført
-              nissehue.
+              Åbningsprogram lørdag 2. nov. fra kl. 15.00 Fri entré 2. nov.
+              mellem kl. 15-16 for gæster iført nissehue.
             </p>
-            <a href="#" class="knappe-hp">Læs mere</a>
+            <a href="./Magisk-jul.html" class="knappe-hp">Læs mere</a>
           </div>
         </div>
-        <div class="card-hp">
-          <div class="card-content-hp">
-            <h2>Åbningdtider</h2>
-            <p>
-              Åbent onsdag - søndag kl. 15-20 <br />Fra 2. november - 29.
-              december.
-            </p>
-            <a href="#" class="knappe-hp">Læs mere</a>
-          </div>
-        </div>
+      </div>
 
-        <div class="card-hp">
-          <div class="card-content-hp">
-            <h2>Billetter</h2>
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-content">
+          <h2>Åbningdtider</h2>
+          <div class="flex-container">
             <p>
-              Billetkøb voksne: kr. 150,- <br />Billetkøb børn (3-12 år): kr.
-              75,-
+              Åbent onsdag - søndag kl. 15-20 Fra 2. november - 29. december.
             </p>
-            <a href="#" class="knappe-hp">Læs mere</a>
+            <a href="./info.html" class="knappe-hp">Læs mere</a>
           </div>
         </div>
-      </section>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-content">
+          <h2>Billetter</h2>
+          <div class="flex-container">
+            <p>
+              Billetkøb voksne: kr. 150,- Billetkøb børn (3-12 år): kr. 75,-
+            </p>
+            <a href="./info.html" class="knappe-hp">Læs mere</a>
+          </div>
+        </div>
+      </div>
+
       <section class="åbnings-ceremonien-hp">
         <h2>Åbnings Ceremonien</h2>
         <p id="nov2">Åbningsprogram lørdag 2. nov. fra kl. 15.00</p>
@@ -150,14 +154,31 @@
           torsdage og fredage i nov. og dec. - og julebuffet lørdage og søndage
           i nov. og dec.
         </article>
-        <a id="læs-mere-smag" href="#">Læs mere</a>
+        <a id="læs-mere-smag" href="./cafe.html">Læs mere</a>
 
         <img
-          src="./Assets/Photos/Billeder/mobile billeder/buffetbillede-til-cafe-siden.jpeg"
+          class="buffet-billede"
+          src="./Assets/Photos/Billeder/desktop billeder/buffetbillede-til-cafe-siden.jpeg"
           alt=""
         />
       </section>
-      <section class="nyhedsbrev-hp"></section>
+      <section class="nyhedsbrev-hp">
+        <form action="">
+          <h2>Nygedsbrev</h2>
+          <div class="container" style="background-color: white">
+            <h3>Navn</h3>
+            <input type="text" placeholder="" name="Email" required />
+            <h3>Fornavn</h3>
+            <input type="text" placeholder="" name="Navn" required />
+            <h3>Efternavn</h3>
+            <input type="text" placeholder="" name="efternavn" required />
+          </div>
+
+          <div class="container">
+            <input type="submit" value="Send nyhedsbrev" />
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
       <p>

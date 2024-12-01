@@ -103,57 +103,75 @@ body-hp {
 
 /* Cards*/
 
-.cards-home-page {
-
-    gap: 20px;
-    max-width: 600px;
+.cards-section {
     display: grid;
-    line-height: 1.5;
+    gap: 20px;
+    /* Space between cards */
+    max-width: 600px;
+    width: 100%;
+
 }
 
 
-.card-hp {
+.card {
     background-color: var(--beige);
     padding: 20px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* skyggen*/
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    position: relative;
+    justify-content: space-between;
 }
 
 
-.card-hp h2 {
-    color: var(--red);
-    line-height: 1.5;
-    font-size: 15px;
-    margin: 0;
+.card-content h2 {
+    margin-top: 20px;
+    color: #A4262C;
+    font-size: 18px;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
-.card-hp p {
-    font-size: 12px;
-    line-height: 1.5;
-    margin: 0;
+.card-content p {
+    font-size: 14px;
     color: black;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+
 
 }
-.card-hp h2, .knappe-hp {
-    display: inline-block;
-    vertical-align: middle;
+
+.card-content .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    
 }
 
 .knappe-hp {
-    background-color: var(--red);
-    
-    font-size: 12px;
-    text-decoration: none;
+    background-color: #A4262C;
     color: white;
-    border-radius: 30px;
-    padding: 10px 20px;
-    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    align-self: right;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
     
 }
-
 
 
 
@@ -228,8 +246,7 @@ body-hp {
 
 .magisk-jul-section-hp {
     flex-direction: column;
-    display: flex;
-    flex-direction: column;
+   
     color: black;
     align-items: center;
     margin-top: 20px;
@@ -318,6 +335,59 @@ align-items: center;
     height: 300px;
     margin-bottom: 30px;
 }
+
+/* Nyhedsbrev*/
+.nyhedsbrev-hp h2 {
+font-size: 32px;
+color: var(--green);
+
+
+}
+.nyhedsbrev-hp h3{
+color: var(--green);
+
+}
+.nyhedsbrev-hp {
+margin-inline: 44px;
+}
+
+form {
+    
+    font-family: Arial;
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    
+    display: inline-block;
+    
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    font-family: "Yeseva One", serif;
+    font-size: 14px;
+    
+    
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
 /* Footer hp*/
 
 footer {
@@ -340,6 +410,55 @@ footer i {
     font-size: 2rem;
 }
 
+/* Media Queries */
+
+@media screen and (min-width: 500px) {
+    .desktopNav {
+            display: flex;
+        }
+    
+ .desktopNav a {
+  color: var(--green);
+ text-decoration: none;
+ padding: 15px;
+}
+ footer {
+  font-size: 1.5rem;
+                }
+footer i {
+ font-size: 3rem;
+}
+body {
+    font-size: 18px;
+    align-items: left;
+}
+
+article {
+   font-size: 18px;
+}
+.card-content p , .magisk-jul-section-hp p {
+    font-size: 18px;
+}
+.magisk-jul-hp-intro p, .magisk-jul-hp-intro article, .magisk-jul-hp-intro ul {
+    font-size: 18px;
+}
+.åbnings-ceremonien-hp p, .åbnings-ceremonien-hp ul li {
+    font-size: 18px;
+}
+img, .img-hp, .cerremoni-billede, .buffet-billede {
+    width: 100%;
+    height: auto;
+}
+.det-smager-af-jul-hp h2, .det-smager-af-jul-hp p{
+    margin: 0px;
+    align-items: left;
+}
+.card a {
+    max-width: 600px;
+    align-items: end;
+    
+
+}
 
 /* Magisk Jul*/
 

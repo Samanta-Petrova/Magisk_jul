@@ -38,7 +38,434 @@ body {
 
 
 
+/* Nav*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateX(-73%);
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: var(--green);
+    background: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+
 /* Home page*/
+
+body-hp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Homepage {
+    line-height: 2;
+   
+
+}
+.magisk-jul-hp-intro {
+    margin-left: 44px;
+    font-size: 14px;
+}
+.magisk-jul-hp-intro h1 {
+    font-size: 32px;
+    color: var(--red);
+}
+#hos-kosBlokhus {
+    font-size: 16px;
+}
+.magisk-jul-hp-intro ul {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Cards*/
+
+.cards-section {
+    display: grid;
+    gap: 20px;
+    /* Space between cards */
+    max-width: 600px;
+    width: 100%;
+
+}
+
+
+.card {
+    background-color: var(--beige);
+    padding: 20px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* skyggen*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-content h2 {
+    margin-top: 20px;
+    color: #A4262C;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.card-content .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.knappe-hp {
+    background-color: #A4262C;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    align-self: right;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    
+}
+
+
+
+/* Hp img*/
+
+.img-hp {
+ width: 400px;
+ margin: 0;
+}
+
+.logo img {
+    width: 250px;
+}
+
+
+
+/* Åbnings Ceremonien*/
+
+.åbnings-ceremonien-hp {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+}
+#nov3 {
+    margin-right: 44px;
+}
+.åbnings-ceremonien-hp h2 {
+    font-size: 32px;
+    
+}
+.åbnings-ceremonien-hp p {
+    margin-left: 44px;
+    text-align: left;
+    font-size: 14px;
+}
+.åbnings-ceremonien-hp li {
+    list-style-type: none;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 44px;
+    
+}
+
+.åbnings-ceremonien-hp a {
+    display: flex;
+    text-decoration: none;
+    color: var(--green);
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.åbnings-ceremonien-hp img {
+    display: flex;
+    align-items: center;
+    width: 323px;
+    height: 242px;
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+
+
+
+/* magisk-jul-section-hp*/
+
+.magisk-jul-section-hp {
+    flex-direction: column;
+   
+    color: black;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 44px;
+    margin-right: 44px;
+    
+
+}
+
+.magisk-jul-section-hp h2 {
+font-size: 32px;
+color: var(--red);
+text-align: left;
+align-items: left;
+margin-right: 155px;
+}
+.magisk-jul-section-hp p {
+    font-size: 14px;
+    align-items: left;
+}
+.magisk-jul-section-hp article{
+    align-items: left   ;
+    margin-bottom: 30px;
+
+}
+.magisk-jul-section-hp a {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: var(--red);
+    padding: 5px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+
+/* Det smager af jul*/
+.det-smager-af-jul-hp{
+    background-color: var(--beige);
+    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        align-items: center;
+            
+}
+
+.det-smager-af-jul-hp h2 {
+    font-size: 32px;
+    color: var(--green);
+    padding-top: 10px;
+    margin-right: 86px;
+    
+
+}
+.det-smager-af-jul-hp p, .det-smager-af-jul-hp article {
+    margin-left: 44px;
+    margin-right: 44px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.det-smager-af-jul-hp p {
+    margin-right: 250px;
+}
+.det-smager-af-jul-hp article {
+    margin-bottom: 20px;
+}
+.det-smager-af-jul-hp a {
+align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: var(--green);
+    padding: 5px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+.det-smager-af-jul-hp img {
+    width: 323px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+/* Nyhedsbrev*/
+.nyhedsbrev-hp h2 {
+font-size: 32px;
+color: var(--green);
+
+
+}
+.nyhedsbrev-hp h3{
+color: var(--green);
+
+}
+.nyhedsbrev-hp {
+margin-inline: 44px;
+}
+
+form {
+    
+    font-family: Arial;
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    
+    display: inline-block;
+    
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    font-family: "Yeseva One", serif;
+    font-size: 14px;
+    
+    
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+/* Footer hp*/
+
+footer {
+    margin: var(--Medium-spacer);
+}
+
+footer p:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+footer p:nth-of-type(3) {
+    margin-top: 0;
+}
+
+footer p a {
+    color: black;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 500px) {
+    .desktopNav {
+            display: flex;
+        }
+    
+ .desktopNav a {
+  color: var(--green);
+ text-decoration: none;
+ padding: 15px;
+}
+ footer {
+  font-size: 1.5rem;
+                }
+footer i {
+ font-size: 3rem;
+}
+body {
+    font-size: 18px;
+    align-items: left;
+}
+
+article {
+   font-size: 18px;
+}
+.card-content p , .magisk-jul-section-hp p {
+    font-size: 18px;
+}
+.magisk-jul-hp-intro p, .magisk-jul-hp-intro article, .magisk-jul-hp-intro ul {
+    font-size: 18px;
+}
+.åbnings-ceremonien-hp p, .åbnings-ceremonien-hp ul li {
+    font-size: 18px;
+}
+img, .img-hp, .cerremoni-billede, .buffet-billede {
+    width: 100%;
+    height: auto;
+}
+.det-smager-af-jul-hp h2, .det-smager-af-jul-hp p{
+    margin: 0px;
+    align-items: left;
+}
+.card a {
+    max-width: 600px;
+    align-items: end;
+    
+
+}
 
 /* Magisk Jul*/
 

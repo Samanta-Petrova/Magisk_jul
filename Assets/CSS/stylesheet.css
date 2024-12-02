@@ -917,6 +917,550 @@ footer p:nth-of-type(3){
 
 /* Events */
 
+/* header */
+
+.logo img {
+    width: 250px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateX(-73%);
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: var(--green);
+    background: white;
+    font-size: large;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+/* main */
+
+.desktopNav {
+    display: none;
+}
+
+main {
+    background-color: var(--beige);
+}
+
+.section3img {
+    height: 278 px;
+    width: 310px;
+    align-content: center;
+}
+
+.section2 h2 {
+    margin-bottom: 1.2rem;
+}
+
+.redtext {
+    color: var(--red);
+}
+
+.whitetext {
+    color: white;
+}
+
+/* Section 1 */
+
+.section1 {
+    display: block;
+}
+
+.section1img {
+    width: 100%;
+}
+
+.div1 {
+    position: absolute;
+    transform: translate(10%, -120%);
+    color: white;
+    background-color: #79797973;
+    padding-bottom: 1rem;
+}
+
+.div1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.div1 h2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.section1img {
+    background-image: url(../Photos/mobile\ billeder/);
+}
+
+/* Section 2 */
+
+.section2 {
+    margin-top: 2rem;
+    align-content: center;
+    margin-left: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.section2 ul {
+    padding: 0rem;
+    margin-left: .5rem;
+    padding-right: .5rem;
+}
+
+.section2 ul p {
+    font-size: small;
+}
+
+.section2 .div2 a {
+    background-color: var(--red);
+    color: #f9f9f9;
+    padding: 5px 15px;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 20px;
+    border-color: var(--red);
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.section2 .redtext {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.juletræ {
+    display: flex;
+    height: 178px;
+    width: 192px;
+
+}
+
+/* Section 3 */
+
+.section3 {
+    background-color: var(--green);
+    padding: 1.3rem;
+}
+
+.section3img {
+    align-items: center;
+    width: 100%;
+}
+
+/* Section 4 */
+
+.section4 {
+    padding: 1.3rem;
+}
+
+.section4 .div4 a {
+    background-color: var(--red);
+    color: white;
+    padding: 5px 15px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 35px;
+    border-color: var(--red);
+    margin-top: .2rem;
+    margin-left: 3.5rem;
+    border-color: white;
+    justify-self: center;
+    text-decoration: none;
+}
+
+a {
+    font-size: 18px;
+}
+
+.section4img {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 337px;
+    width: 262px;
+}
+
+/* Section 5 */
+
+.section5 {
+    background-color: var(--red);
+    padding-top: 1.3rem;
+    padding: .7rem;
+}
+
+.section5 .div5 p {
+    padding-left: 0;
+    margin: 0;
+}
+
+.section5 .sec5text p {
+    margin-right: 1rem;
+}
+
+.section5 .sec5text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+}
+
+.section5 div h2 {
+    font-size: 25px;
+}
+
+.section5 div p {
+    font-size: 15px;
+}
+
+.section5img {
+    width: 100%;
+    height: 337px;
+    margin-left: 1rem;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section5 div h3 {
+    color: var(--green);
+    background-color: var(--beige);
+    margin-bottom: 0rem;
+    padding-bottom: .5rem;
+    padding-left: 0rem;
+
+    padding-top: 1rem;
+    font-size: 18px;
+}
+
+.div5 h3 {
+    margin: 0rem;
+    padding: 0rem;
+    padding-right: 1rem;
+}
+
+.section5 .div5 {
+    display: flex;
+    padding-left: 0rem;
+}
+
+.div5 ul li {
+    font-size: 15px;
+}
+
+.section5 .div5 ul {
+    color: var(--green);
+    background-color: var(--beige);
+    margin-top: 0rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+}
+
+/* Section 6 */
+
+.section6 {
+    background-color: var(--beige);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+.section6 .juleshoppen-img {
+    width: 100%;
+}
+
+.section6 .juleshoppen {
+    position: absolute;
+    transform: translate(3%, -120%);
+    color: white;
+    background-color: #79797973;
+    margin-right: 20px;
+    padding-bottom: 1rem;
+}
+
+.section6 .juleshoppen p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.section6 .juleshoppen h2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1200px) {
+
+    /* header */
+    .desktopNav {
+        display: flex;
+    }
+
+    .desktopNav a {
+        color: var(--green);
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    /* main */
+
+    /* section 1 */
+
+    .div1 p {
+        font-size: 30px;
+    }
+
+    .div1 h2 {
+        font-size: 70px;
+    }
+
+    .section1 .div1 {
+        transform: translate(35%, -150%);
+    }
+
+    /* section 2 */
+
+    .section2 {
+        margin-bottom: 2.5rem;
+    }
+
+    .section2 .div2 a {
+        border-radius: 50px;
+        padding-left: 1.4rem;
+        padding-right: 2rem;
+        font-size: 30px;
+    }
+
+    .section2 div ul {
+        margin-top: 5rem;
+    }
+
+    .section2 .div2 a {
+        margin-left: 6rem;
+    }
+
+    .div2 ul p {
+        font-size: 30px;
+        margin-left: 4rem;
+    }
+
+    .div2 h2 {
+        font-size: 55px;
+        margin-left: 4rem;
+    }
+
+    .div2 ul button {
+        margin-left: 6rem;
+    }
+
+    .section2 .juletræ {
+        height: 570px;
+        width: 680px;
+        margin-left: 7rem;
+    }
+
+    /* section 3 */
+
+    .section3 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section3 .section3img {
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+        padding-right: 2rem;
+        width: 640px;
+        height: 540px;
+    }
+
+    .section3 div h2 {
+        font-size: 55px;
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+
+    .section3 div p {
+        font-size: 30px;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    /* section 4 */
+
+    .section4 {
+        display: flex;
+    }
+
+    .section4 div h2 {
+        font-size: 55px;
+        margin-left: 4rem;
+    }
+
+    .section4 .div4 a {
+        margin-left: 4rem;
+        margin-right: 0;
+        margin-top: 3rem;
+        font-size: 30px;
+    }
+
+    .section4 .div4 p {
+        font-size: 25px;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .section4img {
+        margin-left: 5rem;
+        width: 430px;
+        height: 570px;
+    }
+
+    /* section 5 */
+
+    .section5 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .section5 .div5 {
+        margin-top: 2rem;
+    }
+
+    .section5 .div5 ul {
+        margin-right: 2rem;
+    }
+
+    .section5 .sec5text h2 {
+        font-size: 55px;
+        margin-bottom: .5rem;
+        margin-left: 6rem;
+    }
+
+    .section5 .sec5text p {
+        font-size: 30px;
+        margin-top: .7rem;
+        margin-bottom: .5rem;
+        margin-left: 6rem;
+    }
+
+    .section5 .div5 ul h3 {
+        font-size: 55px;
+
+    }
+
+    .section5 .div5 ul li p {
+        font-size: 30px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .section5 .div5 .section5img {
+        height: 711px;
+        width: 580px;
+        margin-left: 2rem;
+    }
+
+    /* section 6 */
+
+    .section6 .juleshoppen {
+        transform: translate(20%, -150%);
+    }
+
+    .section6 div h2 {
+        font-size: 70px;
+        padding-left: 3rem;
+    }
+
+    .section6 .juleshoppen p {
+        font-size: 30px;
+        padding-left: 3rem;
+
+    }
+
+    /* footer */
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    footer i {
+        font-size: 3rem;
+    }
+}
+
+/* footer */
+footer {
+    margin: var(--Medium-spacer);
+}
+
+footer p:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+footer p:nth-of-type(3) {
+    margin-top: 0;
+}
+
+footer p a {
+    color: black;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
 /* Cafe */
 
 /* Header*/
@@ -1395,3 +1939,399 @@ font-size: 18px;
 
 
 /* Info */
+.logo img {
+    width: 250px;
+}
+
+.desktopNav {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateX(-73%);
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: var(--green);
+    background: white;
+    font-size: large;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+/* main styling */
+
+main {
+    background: var(--beige);
+}
+
+.hero img {
+    margin-bottom: var(--Medium-spacer);
+    width: 100%;
+}
+
+.linkSection {
+    background: var(--red);
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: var(--Medium-spacer);
+}
+
+.linkSection a {
+    padding: 25px 50px;
+    color: var(--green);
+    background: var(--beige);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    border-color: var(--beige);
+    text-decoration: none;
+}
+
+
+.cafe img {
+    width: 100%;
+}
+
+.cafe h2 {
+    padding: 10px 25px;
+    margin-bottom: 0;
+    color: var(--red);
+}
+
+.cafe p {
+    margin-top: 0;
+    padding: 10px 25px;
+    color: var(--red);
+    line-height: 1.5;
+}
+
+.Åbningstider img {
+    width: 100%;
+    margin-top: var(--Large-spacer);
+}
+
+
+.Åbningstider h2 {
+    padding: 10px 25px;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+
+.Åbningstider p {
+    line-height: 1.5;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 0;
+}
+
+.Åbningstider div {
+    background: #79797973;
+    position: absolute;
+    transform: translate(12%, -110%);
+}
+
+.parkeringBillede {
+    margin-top: var(--Large-spacer);
+    margin-bottom: var(--Large-spacer);
+}
+
+.parkeringBillede img {
+    width: 100%;
+}
+
+.Parkering {
+    margin-bottom: var(--Large-spacer);
+}
+
+.Parkering h2 {
+    color: var(--green);
+    padding: 10px 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Parkering p {
+    color: var(--green);
+    padding: 10px 25px;
+    margin-top: 0;
+    padding-top: 5px;
+    line-height: 1.5;
+}
+
+.red {
+    background: var(--red);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: var(--Large-spacer);
+}
+
+.priser {
+    background: var(--beige);
+    margin-left: var(--Small-spacer);
+    margin-right: var(--Small-spacer);
+    margin-bottom: 15px;
+}
+
+.priser h2 {
+    padding: 10px 25px;
+    color: var(--green);
+
+
+}
+
+.priser p {
+    padding: 10px 25px;
+    color: var(--green);
+    margin: 0;
+    line-height: 2;
+}
+
+.onlinebillet {
+    padding: 20px 25px;
+    color: var(--green);
+    background: var(--beige);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 50px;
+}
+
+.nyhedsbrev {
+    background: white;
+    padding: 10px 25px;
+    margin-left: var(--Medium-spacer);
+    margin-right: var(--Medium-spacer);
+    margin-bottom: var(--Medium-spacer);
+}
+
+.nyhedsbrev h2 {
+    color: var(--green);
+}
+
+.nyhedsbrev p {
+    color: var(--green);
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.nyhedsbrev div {
+    border: solid var(--green) 2px;
+}
+
+.nyhedsbrev a {
+    background: var(--green);
+    color: white;
+    border-color: var(--green);
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* footer styling */
+
+footer {
+    margin: var(--Medium-spacer);
+}
+
+footer p:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+footer p:nth-of-type(3) {
+    margin-top: 0;
+}
+
+footer p a {
+    color: black;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+
+/* media querries  1200 desktop*/
+
+@media screen and (min-width: 1200px) {
+    .dropdown {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .desktopNav {
+        display: flex;
+    }
+
+    .desktopNav a {
+        color: var(--green);
+        text-decoration: none;
+        padding: 15px;
+        font-size: medium;
+    }
+
+    .hero {
+        width: 720px;
+
+    }
+
+    .hero img {
+        width: 100%;
+        justify-content: center;
+        margin-top: var(--Medium-spacer);
+    }
+
+    .linkSection {
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 50%;
+    }
+
+    .linkSection a {
+        font-size: 2rem;
+        padding: 10px 10px;
+    }
+
+    .linkSection a:nth-of-type(3) {
+        margin-top: 100px;
+    }
+
+    .linkflex {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        background: var(--red);
+    }
+
+    .cafe h2 {
+        margin-top: 100px;
+        font-size: 3rem;
+        padding-left: 100px;
+    }
+
+    .cafe p {
+        font-size: larger;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .cafe img {
+        width: 50%;
+        margin-top: var(--Large-spacer);
+    }
+
+    .cafe {
+        display: flex;
+    }
+
+    .Åbningstider h2 {
+        font-size: 4rem;
+    }
+
+    .Åbningstider p {
+        font-size: 2rem;
+    }
+
+    .Åbningstider div {
+        transform: translate(300px, -600px);
+    }
+
+    .Parkeringflex {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .Parkering {
+        line-height: 1.5;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .Parkering h2:nth-of-type(1) {
+        margin-top: var(--Large-spacer);
+    }
+
+    .Parkering h2 {
+        margin-top: 0;
+    }
+
+    .Parkering p {
+        margin-bottom: 0;
+    }
+
+    .priser {
+        margin-left: 400px;
+        margin-right: 400px;
+        font-size: 1.3rem;
+    }
+
+    .onlinebillet {
+        margin-left: 480px;
+        margin-right: 480px;
+        font-size: 1.2rem;
+    }
+
+    .nyhedsbrev {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 1.5rem;
+    }
+
+    .nyhedsbrev a {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    footer i {
+        font-size: 3rem;
+    }
+
+
+}

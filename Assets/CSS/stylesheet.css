@@ -273,6 +273,7 @@ section span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 44px;
 }
 
 .card-content h2 {
@@ -328,31 +329,9 @@ section span {
     cursor: pointer;
 }
 
-/* Media query for responsiveness 
-@media (max-width: 600px) {
-    .cards-home-page {
-        padding: 10px;
-        gap: 15px;
-    }
+/* Media query for responsiveness */
 
-    .card-hp {
-        padding: 15px;
-    }
 
-    .card-content-hp h2 {
-        font-size: 16px;
-    }
-
-    .card-content-hp p {
-        font-size: 12px;
-    }
-
-    .knappe-hp {
-        font-size: 12px;
-        padding: 8px 16px;
-    }
-}
-*/
 /* footer*/ 
 footer {
     margin: var(--Medium-spacer);
@@ -372,11 +351,54 @@ footer p a {
 
 footer i {
     font-size: 2rem;
+    
+}
+.desktopNav {
+    display: flex;
+}
+
+.desktopNav a {
+    color: var(--green);
+    text-decoration: none;
+    padding: 15px;
 }
 
 
+@media screen and (min-width: 500px) {
+    #Herobillede-til-cafe, .dagens-kage img  {
+        width: 100%;
+        height: auto;
+    }
+    section p {
+        font-size: 18px;
+    }
+    .julebuffet article {
+        align-content: center;
+    }
+    .card {
+        align-items: center;
+    }
+    .julebuffet h2 {
+        font-size: 40px;
 
-
+    }
+    .intro-cafe h1 {
+        font-size: 40px;
+    }
+   
+         footer {
+             font-size: 1.5rem;
+         }
+    
+         footer i {
+             font-size: 3rem;
+         }
+         .card {
+            min-width: 100%;
+            align-content: center;
+            margin-left: 44pr;
+         }
+}
 
 
 

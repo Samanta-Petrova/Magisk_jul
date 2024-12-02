@@ -151,7 +151,8 @@ nav {
 }
 
 .julebuffet img {
-    width: 343px;
+    width: 400px;
+    height: auto;
 }
 
 /* dagens kage*/
@@ -374,7 +375,12 @@ footer i {
 
 }
 
-
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
 
 @media screen and (min-width: 500px) {
     .dagens-kage img {
@@ -383,15 +389,28 @@ footer i {
     }
 
     .intro-cafe {
-        display: flex;
-        flex-wrap: wrap;
+        width: 100%;
     }
 
-    #Herobillede-til-cafe {
-        align-items: right;
-        justify-content: end;
-    }
+   
+    
+.card h2 {
+    font-size: 36px;
+}
+.intro-cafe article, .julebuffet p, .julebuffet article, .dagens-kage article, .menukort article{
+font-size: 18px;
+}
 
+.intro-cafe h1, .intro-cafe article 
+.card p { 
+    font-size: 18px;
+    text-align: left;
+
+}
+.accordion-content p {
+    font-size: 18px;
+
+}
     section p {
         font-size: 18px;
     }
@@ -426,7 +445,7 @@ footer i {
         align-content: center;
         margin-left: 44pr;
     }
-
+/*nav*/
     .desktopNav {
         display: flex;
     }
@@ -436,7 +455,7 @@ footer i {
         text-decoration: none;
         padding: 15px;
     }
-
+/* Footer*/
     footer {
         margin: var(--Medium-spacer);
     }
@@ -457,9 +476,16 @@ footer i {
         font-size: 2rem;
 
     }
+   .julebuffet img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: 0 100%;
+
+    }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1200px) {
     .cards {
         display: flex;
         justify-content: space-around;
